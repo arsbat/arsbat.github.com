@@ -1,4 +1,27 @@
-﻿html, p, a {
-    font-family:Arial;
-    font-size:13px;
+﻿body, html {
+    font-family: Arial;
+    font-size: 13px;
+    width: 1250px;
+}
+
+#nav {
+    word-spacing: 11px;
+    margin: -5px 500px 0px 127px;
+}
+
+.marked {
+    font-weight:bold;
+}
+
+#yandex_logo {
+    margin: 7px 0px 0px 9px;
+}
+
+#answers_found {
+    text-align: center;
+    margin: -10px 1137px 0px 0px;
+}
+
+#search_background {
+    margin: -130px 0px 17px 121px;
 }

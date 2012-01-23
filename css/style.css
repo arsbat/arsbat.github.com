@@ -91,14 +91,19 @@
 
 #result_region {
     margin-left: 127px;
-    margin-top: 30px;
+    margin-top: 14px;
 }
 
 #result_region_all {
     background-color: #EDEEF0;
-    margin-left: 18px;
+    margin-left: 12px;
+    padding: 1px 6px 2px 6px;
 }
 
 .result_region_other_links {
-    margin-left: 18px;
+    margin-left: 13px;
+}
+
+.list_h {
+    font-size: 14pt;
 }

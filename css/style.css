@@ -25,3 +25,26 @@
 #search_background {
     margin: -130px 0px 17px 121px;
 }
+
+#y_search_line {
+    position: relative;
+    left: 125px;
+    bottom:74px;
+}
+
+#search_but {
+    position: relative;
+    left: 130px;
+    bottom: 74px;
+}
+
+#checkbox {
+    margin: -72px 0px 0px 125px;
+    vertical-align: 10px;
+}
+
+#advanced_search a:link {
+    position: relative;
+    bottom: 17px;
+    left: 558px;
+}

@@ -52,3 +52,39 @@
 #advanced_search:link {color:#BE8E0E;}
 #advanced_search:visited {color:#BE8E0E;}
 #advanced_search:hover {color:#FF0000;}
+
+#right_top_menu {
+    float:right;
+    margin-top: -93px;
+}
+
+#r_top_list1 {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 6px;
+    line-height: 20px;
+    margin-top: 11px;
+}
+
+#r_top_list2 {
+    list-style-type: none;
+    margin-right: 98px;
+    margin-top: -33px;
+    line-height: 20px;
+}
+
+.marked_menu_link:link {color:#666666;}
+.marked_menu_link:visited {color:#666666;}
+.marked_menu_link:hover {color:#FF0000;}
+
+#cityname {
+    color: #666666;
+}
+
+#my_finds:link {color:#1A3DC1;}
+#my_finds:visited {color:#1A3DC1;}
+#my_finds:hover {color:#FF0000;}
+
+#enter_but:link {color:#007700;}
+#enter_but:visited {color:#007700;}
+#enter_but:hover {color:#FF0000;}

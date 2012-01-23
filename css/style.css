@@ -43,8 +43,12 @@
     vertical-align: 10px;
 }
 
-#advanced_search a:link {
-    position: relative;
-    bottom: 17px;
-    left: 558px;
+#advanced_search {
+    position:absolute;
+    left: 550px;
+    bottom: 616px;
 }
+
+#advanced_search:link {color:#BE8E0E;}
+#advanced_search:visited {color:#BE8E0E;}
+#advanced_search:hover {color:#FF0000;}

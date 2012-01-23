@@ -44,9 +44,9 @@
 }
 
 #advanced_search {
-    position:absolute;
+    position:relative;
     left: 550px;
-    bottom: 616px;
+    bottom: 16px;
 }
 
 #advanced_search:link {color:#BE8E0E;}

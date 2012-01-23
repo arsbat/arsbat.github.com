@@ -119,10 +119,21 @@
 
 .list_translate {
     font-size: 13px;
-    color: #666666;
+    margin-left: 5px;
+}
+
+.list_links {
+    word-spacing: 15px;
 }
 
 .list_translate:link {color:#666666;}
 .list_translate:visited {color:#666666;}
 .list_translate:hover {color:#FF0000;}
 
+.list_links:link {color:#666666;}
+.list_links:visited {color:#666666;}
+.list_links:hover {color:#FF0000;}
+
+.link_on_page:link {color:#007700;}
+.link_on_page:visited {color:#007700;}
+.link_on_page:hover {color:#FF0000;}

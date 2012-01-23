@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="222" column="35" selection-start="12075" selection-end="12075" vertical-scroll-proportion="9.807693">
+            <state line="75" column="53" selection-start="4212" selection-end="4212" vertical-scroll-proportion="-23.538462">
               <folding>
                 <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="0" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.8897893">
+            <state line="121" column="21" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.5316045">
               <folding />
             </state>
           </provider>
@@ -221,7 +221,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="35" selection-start="12075" selection-end="12075" vertical-scroll-proportion="9.807693">
+        <state line="75" column="53" selection-start="4212" selection-end="4212" vertical-scroll-proportion="-23.538462">
           <folding>
             <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
@@ -234,7 +234,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.8897893">
+        <state line="121" column="21" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.5316045">
           <folding />
         </state>
       </provider>

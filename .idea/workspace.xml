@@ -28,11 +28,13 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="50" selection-start="2168" selection-end="2168" vertical-scroll-proportion="-10.461538">
+            <state line="55" column="38" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-10.384615">
               <folding>
+                <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#2;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#3;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -41,7 +43,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="35" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.91734195">
+            <state line="100" column="0" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.8897893">
               <folding />
             </state>
           </provider>
@@ -219,18 +221,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="50" selection-start="2168" selection-end="2168" vertical-scroll-proportion="-10.461538">
+        <state line="55" column="38" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-10.384615">
           <folding>
+            <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="35" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.91734195">
+        <state line="100" column="0" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.8897893">
           <folding />
         </state>
       </provider>

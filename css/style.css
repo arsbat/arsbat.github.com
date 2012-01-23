@@ -88,3 +88,17 @@
 #enter_but:link {color:#007700;}
 #enter_but:visited {color:#007700;}
 #enter_but:hover {color:#FF0000;}
+
+#result_region {
+    margin-left: 127px;
+    margin-top: 30px;
+}
+
+#result_region_all {
+    background-color: #EDEEF0;
+    margin-left: 18px;
+}
+
+.result_region_other_links {
+    margin-left: 18px;
+}

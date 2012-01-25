@@ -115,8 +115,10 @@
 }
 
 .main_column_list {
-    margin: 0px 540px 0px 0px;
-    padding-left: 100px;
+    margin: 0px 0px 0px 0px;
+    padding-left: 82px;
+    width: 625px;
+    margin-bottom: 15px;
 }
 
 .list_h {
@@ -132,6 +134,14 @@
     word-spacing: 15px;
 }
 
+li {
+    color: #CCCCCC;
+}
+
+li div {
+    color: black;
+}
+
 .list_translate:link {color:#666666;}
 .list_translate:visited {color:#666666;}
 .list_translate:hover {color:#FF0000;}
@@ -143,3 +153,11 @@
 .link_on_page:link {color:#007700;}
 .link_on_page:visited {color:#007700;}
 .link_on_page:hover {color:#FF0000;}
+
+.list_item {
+    margin: 0px 0px -20px 0px;
+}
+
+.list_info {
+    padding-left: 22px;
+}

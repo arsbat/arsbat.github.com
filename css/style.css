@@ -253,8 +253,18 @@ footer {
     padding-top: 10px;
     border-top: 1px solid #dcdcdc;
     text-align: center;
+    margin-left: -7px;
 }
 
 #nav_footer {
-    text-align: right;
+    float: right;
+}
+
+#license {
+    margin-left: 60px;
+}
+
+#year_footer {
+    margin-right: 50px;
+    margin-left: 40px;
 }

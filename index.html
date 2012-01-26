@@ -48,11 +48,11 @@
                 </ul>
             </div>
         </header>
-        <div class=content>
+        <div id=content>
             <div class=column_left>
                 <div id="result_region">
                     Результаты
-                        <span id="result_region_all">все</span>
+                        <span class="marked_with_background">все</span>
                         <a class="result_region_other_links" href="...">в уанете</a>
                         <a class="result_region_other_links" href="...">в мировом интернете</a>
                 </div>
@@ -215,7 +215,7 @@
                                 Найден по ссылке: смотреть онлайн фильм по tet.
                             </div>
                             <div class="list_links">
-                                <a class="link_on_page" href="...">tv.a.ua›TET онлайн</a>
+                                <a class="link_on_page" href="...">tv.a.ua›TET</a>
                                 <a class="list_links" href="...">копия</a>
                                 <a class="list_links" href="...">ещё</a>
                             </div>
@@ -237,7 +237,7 @@
                                 TETS for Acme Foundry.
                             </div>
                             <div class="list_links">
-                                <a class="link_on_page" href="...">tv.a.ua›TET онлайн</a>
+                                <a class="link_on_page" href="...">tv.a.ua›TET</a>
                                 <a class="list_links" href="...">копия</a>
                                 <a class="list_links" href="...">ещё</a>
                             </div>
@@ -311,13 +311,16 @@
                     <a href="...">Все видеоролики</a>
                 </div>
             </div>
-            <div class="pager_nav">
-                Страницы
-                ← Ctrl предыдущая
-                <a href="...">следующая</a> Ctrl →
-            </div>
+        </div>
+        <div id="pager_nav">
+            <span id="pager_nav_pages">Страницы</span>
+            <span class="pager_nav_ctrl">← Ctrl
+                <span id="pager_nav_previous">предыдущая</span>
+            </span>
+            <a href="...">следующая</a>
+            <span class="pager_nav_ctrl">Ctrl →</span>
             <div id="pager_numbers">
-                <span id="first_page">1</span>
+                <span class="marked_with_background">1</span>
                 <a href="...">2</a>
                 <a href="...">3</a>
                 <a href="...">4</a>
@@ -327,30 +330,31 @@
                 <a href="...">8</a>
                 <a href="...">9</a>
                 <a href="...">10</a>
+                <a href="...">...</a>
             </div>
             <div class="sorted">
                 Отсортировано
-                по релевантности
+                <span class="marked_with_background">по релевантности</span>
                 <a href="...">по дате</a>
             </div>
-            <div class="tets_other">
-                Поискать «tets» в других поисковых системах:
+            <div class="sorted">
+                Поискать <span class="keyword">«tets»</span> в других поисковых системах:
                 <a href="...">Google</a>
                 <a href="...">Bing</a>
             </div>
         </div>
         <footer>
-            <a id="keyboard" href="...">Клавиатура</a>
-            <a id="license" href="...">Лицензия на поиск</a>
-            <div class="nav_footer">
+            <a href="...">Клавиатура</a>
+            <a href="...">Лицензия на поиск</a>
+            <span id="nav_footer">
                 <a href="...">О компании</a>
                 <a href="...">Статистика</a>
                 <a href="...">Реклама</a>
-            </div>
-            <div class="year_footer">
-                © 1997—2012
-                <a href="...">«Яндекс»</a>
-            </div>
+                <span id="year_footer">
+                    © 1997—2012
+                    <a href="...">«Яндекс»</a>
+                </span>
+            </span>
         </footer>
 	</body>
 </html>

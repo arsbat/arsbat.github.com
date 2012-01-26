@@ -3,6 +3,7 @@
     font-size: 13px;
     width: 100%;
     min-width: 1050px;
+    margin-bottom: 5px;
 }
 
 #nav {
@@ -65,6 +66,10 @@
 #advanced_search:visited {color:#BE8E0E;}
 #advanced_search:hover {color:#FF0000;}
 
+#content {
+    margin-bottom: 210px;
+}
+
 #header_top_menu {
     float: right;
     margin: -110px 8px 0px 0px;
@@ -105,7 +110,7 @@
     margin-top: 14px;
 }
 
-#result_region_all {
+.marked_with_background {
     background-color: #EDEEF0;
     margin-left: 12px;
     padding: 1px 6px 2px 6px;
@@ -163,6 +168,14 @@ li div {
 .link_on_page:visited {color:#007700;}
 .link_on_page:hover {color:#FF0000;}
 
+footer a:link {color:#37496D;}
+footer a:visited {color:#37496D;}
+footer a:hover {color:#FF0000;}
+
+.link_on_page {
+    text-decoration: none;
+}
+
 .list_item {
     margin: 0px 0px -20px 0px;
 }
@@ -188,4 +201,60 @@ li div {
 
 #post_request {
     margin: 5px 0px 15px 0px;
+}
+
+#pager_nav {
+    margin-left: 125px;
+    font-size: 13pt;
+    border-bottom: ;
+}
+
+#pager_nav_pages {
+    font-weight: bold;
+    font-size: 13pt;
+    word-spacing: 10px;
+}
+
+.pager_nav_ctrl {
+    color:#81669D;
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+#pager_nav_previous {
+    font-size: 13pt;
+    margin-right: 12px;
+}
+
+#pager_nav a {
+    color: #1962E1;
+}
+
+#column_adv ol li {
+    list-style-type: none;
+}
+
+#pager_numbers {
+    word-spacing: 10px;
+    margin: 10px 0px 14px -12px;
+}
+
+.sorted {
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.keyword {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 8pt;
+    padding-top: 10px;
+    border-top: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+#nav_footer {
+    text-align: right;
 }

@@ -20,7 +20,8 @@
 
 #answers_found {
     text-align: center;
-    margin: -10px 1137px 0px 0px;
+    margin: -10px 0px 0px 5px;
+    width: 100px;
 }
 
 #search_background {
@@ -30,13 +31,17 @@
 #y_search_line {
     position: relative;
     left: 125px;
-    bottom:74px;
+    bottom:76px;
+    height: 19px;
 }
 
 #search_but {
     position: relative;
     left: 130px;
-    bottom: 74px;
+    bottom: 77px;
+    height: 27px;
+    width: 65px;
+    font-size: 15px;
 }
 
 #checkbox {
@@ -58,6 +63,7 @@
     float:right;
     margin-top: -93px;
     margin-right: 10px;
+    margin-left: 760px;
 }
 
 #r_top_list1 {
@@ -136,6 +142,7 @@
 
 li {
     color: #CCCCCC;
+    list-style-type: none;
 }
 
 li div {
@@ -160,4 +167,22 @@ li div {
 
 .list_info {
     padding-left: 22px;
+}
+
+#column_adv {
+    width: 300px;
+    margin-left: 800px;
+    margin-top: -748px;
+}
+
+.adv_column_list {
+    margin-left: -40px;
+}
+
+.adv_list_info {
+    margin-top: 15px;
+}
+
+#post_request {
+    margin: 5px 0px 15px 0px;
 }

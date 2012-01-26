@@ -59,25 +59,23 @@
 #advanced_search:visited {color:#BE8E0E;}
 #advanced_search:hover {color:#FF0000;}
 
-#right_top_menu {
-    float:right;
-    margin-top: -93px;
-    margin-right: 10px;
-    margin-left: 760px;
+#header_top_menu {
+    margin-top: -98px;
+    margin-right: 0px;
+    margin-left: 1027px;
+    width: 226px;
 }
 
 #r_top_list1 {
     list-style-type: none;
     text-align: right;
-    margin-right: 6px;
+    margin: 0px 6px 0px 0px;
     line-height: 20px;
-    margin-top: 11px;
 }
 
 #r_top_list2 {
     list-style-type: none;
-    margin-right: 98px;
-    margin-top: -33px;
+    margin-top: -20px;
     line-height: 20px;
 }
 
@@ -96,6 +94,10 @@
 #enter_but:link {color:#007700;}
 #enter_but:visited {color:#007700;}
 #enter_but:hover {color:#FF0000;}
+
+.content {
+    margin-top: 32px;
+}
 
 #result_region {
     margin-left: 127px;

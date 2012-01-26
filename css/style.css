@@ -29,7 +29,8 @@
 }
 
 #header_panel {
-    margin: -76px 0px 78px 125px;
+    float: left;
+    margin: -76px 0 78px 125px;
     width: 714px;
 }
 
@@ -65,9 +66,8 @@
 #advanced_search:hover {color:#FF0000;}
 
 #header_top_menu {
-    margin-top: -110px;
-    margin-right: 0px;
-    margin-left: 1027px;
+    float: right;
+    margin: -110px 8px 0px 0px;
     width: 226px;
 }
 
@@ -99,10 +99,6 @@
 #enter_but:link {color:#007700;}
 #enter_but:visited {color:#007700;}
 #enter_but:hover {color:#FF0000;}
-
-.content {
-    margin-top: 32px;
-}
 
 #result_region {
     margin-left: 127px;

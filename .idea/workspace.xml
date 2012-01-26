@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab39a24b-7aca-44de-ac44-fdf12799f4d4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="arsbat.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +36,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="20" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.6612642">
+            <state line="37" column="11" selection-start="523" selection-end="523" vertical-scroll-proportion="0.3306321">
               <folding />
             </state>
           </provider>
@@ -227,7 +226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="20" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.6612642">
+        <state line="37" column="11" selection-start="523" selection-end="523" vertical-scroll-proportion="0.3306321">
           <folding />
         </state>
       </provider>

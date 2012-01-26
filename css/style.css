@@ -29,13 +29,13 @@
 }
 
 #header_panel {
-    margin: -76px 0px 78px 2px;
+    margin: -76px 0px 78px 125px;
     width: 714px;
 }
 
 #y_search_line {
     position: relative;
-    left: 123px;
+    left: 0px;
     height: 18px;
 }
 
@@ -44,12 +44,12 @@
     width: 65px;
     font-size: 15px;
     position: relative;
-    left: 125px;
+    left: 0px;
     top: 1px;
 }
 
 #checkbox {
-    margin: -47px 0px 0px 125px;
+    margin: -47px 0px 0px 0px;
     vertical-align: 10px;
     position: relative;
     top: 50px;

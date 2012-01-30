@@ -356,5 +356,26 @@
                 </span>
             </span>
         </footer>
+        <script id="searchResult" type="text/x-jquery-tmpl">
+            <li class="main_column_list">
+                <a href="#" class="list_h">{{html title}}</a>
+                <span class="list_translate">{{html translate}}</span>
+                <p class="list_content">{{html content}}</p>
+                {{each link}}
+                <a href="#" class="sublink">${$value}</a> -
+                {{/each}}
+            </li>
+        </script>
+        <script type="text/javascript">
+            var searchResult [
+                {
+                    "title": "Клуб знакомств TET-A-TET",
+                    "translate": "перевод",
+                    "list_content": "jhsdbfnksdmpdfmdfpgmfpgm",
+                }
+            ];
+            $( "#searchResult" ).tmpl( searchResult )
+                    .appendTo( "#main_column_list" );
+        </script>
 	</body>
 </html>

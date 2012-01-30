@@ -206,7 +206,6 @@ footer a:hover {color:#FF0000;}
 #pager_nav {
     margin-left: 125px;
     font-size: 13pt;
-    border-bottom: ;
 }
 
 #pager_nav_pages {
@@ -267,4 +266,8 @@ footer {
 #year_footer {
     margin-right: 50px;
     margin-left: 40px;
+}
+
+.highlighted {
+    font-weight: bold;
 }

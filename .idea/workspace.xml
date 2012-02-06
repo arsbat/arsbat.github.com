@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="380" column="7" selection-start="19621" selection-end="19621" vertical-scroll-proportion="-71.26923">
+            <state line="373" column="16" selection-start="19549" selection-end="19549" vertical-scroll-proportion="0.47058824">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="18" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.18377483">
+            <state line="52" column="14" selection-start="3253" selection-end="3253" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,8 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -95,7 +95,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -110,6 +109,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -226,16 +226,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="380" column="7" selection-start="19621" selection-end="19621" vertical-scroll-proportion="-71.26923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="18" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.18377483">
+        <state line="52" column="14" selection-start="3253" selection-end="3253" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="373" column="16" selection-start="19549" selection-end="19549" vertical-scroll-proportion="0.47058824">
           <folding />
         </state>
       </provider>

@@ -5,6 +5,8 @@
         <title>tets — Яндекс: Нашлось over9000 ответов</title>
         <link rel="shortcut icon" href="images/icon.ico">
         <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
 	</head>
 	<body>
         <header>
@@ -53,8 +55,8 @@
                 <div id="result_region">
                     Результаты
                         <span class="marked_with_background">все</span>
-                        <a class="result_region_other_links" href="...">в уанете</a>
-                        <a class="result_region_other_links" href="...">в мировом интернете</a>
+                        <a class="res_region_other_links" href="...">в уанете</a>
+                        <a class="res_region_other_links" href="...">в мировом интернете</a>
                 </div>
                 <ol class="result_list">
                     <li class=main_column_list>
@@ -304,7 +306,7 @@
                 </div>
                 <div class="adv_list_videos">
                     <div>
-                        <a href="...">Видео "tets"</a>
+                        <a class="list_links" href="...">Видео "tets"</a>
                     </div>
                     <img src="images/tets_videos.png" /><br>
                     TETS Dance (Прикол)<br>
@@ -358,24 +360,27 @@
         </footer>
         <script id="searchResult" type="text/x-jquery-tmpl">
             <li class="main_column_list">
-                <a href="#" class="list_h">{{html title}}</a>
-                <span class="list_translate">{{html translate}}</span>
-                <p class="list_content">{{html content}}</p>
+                <div class="item">{{html item}}</div>
+                <a href="#" class="title">{{html title}}</a>
+                <span class="translate">{{html translate}}</span>
+                <p class="content">{{html content}}</p>
                 {{each link}}
-                <a href="#" class="sublink">${$value}</a> -
+                <a href="#" class="page_link">${$value}</a>
+                <a href="#" class="other_links">${$value}</a> -
                 {{/each}}
             </li>
         </script>
         <script type="text/javascript">
             var searchResult [
                 {
-                    "title": "Клуб знакомств TET-A-TET",
-                    "translate": "перевод",
-                    "list_content": "jhsdbfnksdmpdfmdfpgmfpgm",
+                    "item": "<div class='list_item'><img src='images/wiki.png' /></div>",
+                    "title": "<div class='list_h'>Клуб знакомств TET-A-TET</div>",
+                    "translate": "<span class='list_translate'>перевод</span>",
+                    "content": "<div class='list_content'>jhsdbfnksdmpdfmdfpgmfpgm</div>",
                 }
             ];
             $( "#searchResult" ).tmpl( searchResult )
-                    .appendTo( ".main_column_list" );
+                    .appendTo( ".result_list" );
         </script>
 	</body>
 </html>
